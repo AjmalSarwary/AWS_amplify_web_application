@@ -7,6 +7,7 @@ const IntroductionComponent = () => {
   return (
     <div id="introduction">
 	<main className={styles.mainContent}>
+	
       <br />
       <p><b> Basic Investment Simulation </b></p>
       <br />

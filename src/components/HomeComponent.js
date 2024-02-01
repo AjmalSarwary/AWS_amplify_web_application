@@ -1,8 +1,6 @@
 //Home.js 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import GbmSimulation from './gbm/GbmSimulation';
-import IntroductionComponent from './gbm/IntroductionComponent';
 import styles from './HomeComponent.module.css';
 
 function HomeComponent() {
@@ -21,7 +19,7 @@ function HomeComponent() {
 			  <Link to="/portfolio" className={styles.navLink}>Portfolio</Link> 
             </li>
             <li className={styles.navItem}>
-              <Link to="/about" className={styles.navLink}>About</Link> 
+              <Link to="/contact" className={styles.navLink}>Contact</Link> 
             </li>
           </ul>
         </nav>
@@ -33,7 +31,9 @@ function HomeComponent() {
      
       <main className={styles.mainContent}>
 	  
-        <h1 className={styles.titleH1}>A curated display of my work</h1>
+	  <h2> Home </h2>
+	  
+        <h3 className={styles.titleH1}>A curated display of my work</h3>
 		
         <p>Welcome to a showcase of my recent work and a sneak peek into my ongoing projects.</p>
 		<p>

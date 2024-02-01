@@ -1,12 +1,10 @@
-//Portfolio.js
+//Contact.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import GbmSimulation from './GbmSimulation';
-import IntroductionComponent from './IntroductionComponent';
 import styles from './PortfolioComponent.module.css';
 
 
-function PortfolioComponent() {
+function Contact() {
   return (
     <div className={styles.container}>
       
@@ -28,16 +26,17 @@ function PortfolioComponent() {
       </header>
      
       <main className={styles.mainContent}>
-	   <h2> Portfolio </h2>
 	  
-        <h3 className={styles.titleH1}> A curated display of my work</h3>
+        <h2 >Contact </h2>
 		
-        <p>Welcome to a showcase of my recent work and a sneak peek into my ongoing projects.</p>
+        <p>This website is a collection of my work samples. </p>
+		
+		<p> It's meant to present an overview of my portfolio and skill set. </p>
+		<p>If you have any feedback, inquiries, or any other concerns, I look forward to hearing from you. </p>
+		<p> Please feel free to send an email to </p>
+		<p>a.sarwary@dividendloops.com</p>
 		
 		
-		<IntroductionComponent />
-		
-        <GbmSimulation /> 
 		
       </main>
 
@@ -52,4 +51,4 @@ function PortfolioComponent() {
   );
 }
 
-export default PortfolioComponent;
+export default Contact;
