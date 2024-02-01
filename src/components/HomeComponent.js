@@ -36,11 +36,11 @@ function HomeComponent() {
         <h3 className={styles.titleH1}>A curated display of my work</h3>
 		
         <p>Welcome to a showcase of my recent work and a sneak peek into my ongoing projects.</p>
-		<p>
+		
 		   <ul>
 			    <li>Stochastic Simulation of Investment Scenarios - Interactive Widget</li>
 			</ul> 
-		</p>
+	
 <div className="mainContent">
 		 <div className="tags">
         <span className="tag" >Data Modeling</span>
