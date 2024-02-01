@@ -12,20 +12,23 @@ const IntroductionComponent = () => {
       <br />
 	  
         
-      <p>This interactive dashboard, featuring a Geometric Brownian Motion simulation, showcases my competencies in data analysis and web development.</p>
+      <p>This interactive tool, featuring a Geometric Brownian Motion simulation, draws on my competencies in priedictive analysis and custom script-based reporting.</p>
       <p>It represents the synthesis of several skills:</p><br />
 	  </main>
       <div className="tags">
-        <span className="tag">Data Modeling</span>
+        <span className="tag" >Data Modeling</span>
+        <span className="tag">Live Dashboard</span>
+		<span className="tag" >Plotly</span>
         <span className="tag">Javascript</span>
-        <span className="tag">AWS</span>
-        <span className="tag">Interactive Dashboard</span>
 		<span className="tag">React</span>
-        <span className="tag">HTML/CSS</span>
-        <span className="tag">Web-Analytics</span>
+		<span className="tag">HTML/CSS</span>
+		<span className="tag">AWS</span>
+
+        
+		        
        
       </div><br />
-      <p>This widget simulates the wealth evolution of an investment using a stochastic model, presenting the data through an interactive web interface.</p>
+      <p>The widget below simulates the wealth evolution of an investment using a stochastic model, presenting the data through an interactive web interface.</p>
     </div>
   );
 };

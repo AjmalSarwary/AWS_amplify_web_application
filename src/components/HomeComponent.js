@@ -1,23 +1,27 @@
+//Home.js 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import GbmSimulation from './gbm/GbmSimulation';
-import IntroductionComponent from './gbm/introductioncomponent';
+import IntroductionComponent from './gbm/IntroductionComponent';
 import styles from './HomeComponent.module.css';
 
 function HomeComponent() {
   return (
     <div className={styles.container}>
-      {/* Your existing header and navigation */}
+      
       <header className={styles.headerFooter}>
         <nav>
           <ul className={styles.navList}>
             <li className={styles.navItem}>
-              <a href="Home.html" className={styles.navLink}>Home</a>
+             
+			  <Link to="/" className={styles.navLink}>Home</Link>
             </li>
             <li className={styles.navItem}>
-              <a href="Projects.html" className={styles.navLink}>Portfolio</a>
+              
+			  <Link to="/portfolio" className={styles.navLink}>Portfolio</Link> 
             </li>
             <li className={styles.navItem}>
-              <a href="About.html" className={styles.navLink}>About</a>
+              <Link to="/about" className={styles.navLink}>About</Link> 
             </li>
           </ul>
         </nav>
@@ -32,11 +36,32 @@ function HomeComponent() {
         <h1 className={styles.titleH1}>A curated display of my work</h1>
 		
         <p>Welcome to a showcase of my recent work and a sneak peek into my ongoing projects.</p>
+		<p>
+		   <ul>
+			    <li>Stochastic Simulation of Investment Scenarios - Interactive Widget</li>
+			</ul> 
+		</p>
+<div className="mainContent">
+		 <div className="tags">
+        <span className="tag" >Data Modeling</span>
+		<span className="tag">Plotly</span>
+        <span className="tag">Javascript</span>
+		<span className="tag">React</span>
+		<span className="tag">AWS</span>
+        <span className="tag">Live Dashboard</span>
+
+       
+
+	  </div>
+	  </div>
 		
-		
-		<IntroductionComponent />
-		
-        <GbmSimulation /> 
+		<Link to="/portfolio">
+  <img
+    src="/gbm.png"
+    alt="Portfolio Preview"
+    style={{ width: '40%' }} 
+  />
+</Link>
 		
       </main>
 
