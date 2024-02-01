@@ -23,20 +23,30 @@ function HomeComponent() {
         </nav>
       </header>
 
-      {/* Introduction Component */}
-      <IntroductionComponent />
+      
+    
 
-      {/* Main content area */}
+     
       <main className={styles.mainContent}>
+	  
         <h1 className={styles.titleH1}>A curated display of my work</h1>
+		
         <p>Welcome to a showcase of my recent work and a sneak peek into my ongoing projects.</p>
-        <GbmSimulation /> {/* GBM Simulation Component */}
+		
+		
+		<IntroductionComponent />
+		
+        <GbmSimulation /> 
+		
       </main>
 
-      {/* Your existing footer */}
+     
       <footer className={styles.headerFooter}>
+	  
         <p>© 2023 A.S. </p>
+		
       </footer>
+	  
     </div>
   );
 }
